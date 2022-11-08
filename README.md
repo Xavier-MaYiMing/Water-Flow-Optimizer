@@ -47,7 +47,7 @@ if __name__ == '__main__':
     pl = 0.3
     pe = 0.7
     lbound = [0, 0, 10, 10]
-    ubound = [100, 100, 100, 100]
+    ubound = [99, 99, 200, 200]
     print(main(pop, iter, pl, pe, lbound, ubound))
 ```
 
